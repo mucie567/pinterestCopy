@@ -1,15 +1,14 @@
 <template>
-  <v-app>
+  <div class="core-view">
     <router-view></router-view>
-  </v-app>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "App",
-  components: {},
-  data: () => ({
-    //
-  })
+  name: "CoreView"
 };
 </script>
+
+<style lang="scss" scoped>
+</style>
